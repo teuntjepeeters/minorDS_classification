@@ -34,7 +34,3 @@ def train_and_testdata(heart):
 if __name__ == '__main__':
     heart = pd.read_csv("heart.csv", sep=";")
     x_train, x_test, y_train, y_test = train_and_testdata(heart)
-    # logistic_regression(x_train, x_test, y_train, y_test)
-    # lda(x_train, x_test, y_train, y_test)
-    # decision_tree(x_train, x_test, y_train, y_test)
-    # random_forest(x_train, x_test, y_train, y_test)
